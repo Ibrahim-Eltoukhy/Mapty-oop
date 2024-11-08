@@ -21,7 +21,7 @@ class Workout {
     this.duration = duration;
   }
 }
-
+/*
 class Running extends Workout {
   constructor(coords, distance, duration, cadence) {
     super(coords, distance, duration);
@@ -47,10 +47,10 @@ class Cycling extends Workout {
   }
 }
 
-const run1 = new Running([100, 60], 21, 15, 22);
-const cyc1 = new Cycling([100, 60], 21, 15, 22);
+// const run1 = new Running([100, 60], 21, 15, 22);
+// const cyc1 = new Cycling([100, 60], 21, 15, 22);
 
-console.log(run1, cyc1);
+// console.log(run1, cyc1);
 class App {
   #map;
   #mapEvent;
@@ -124,3 +124,4 @@ class App {
 }
 
 const app = new App();
+*/
